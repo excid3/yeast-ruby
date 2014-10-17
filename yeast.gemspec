@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Yeast::VERSION
   spec.authors       = ["Chris Oliver"]
   spec.email         = ["excid3@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Learn from errors in your Rails apps}
+  spec.description   = %q{A better error page for your Rails apps that helps you learn from your errors}
   spec.homepage      = ""
   spec.license       = "MIT"
 
