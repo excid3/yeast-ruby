@@ -760,6 +760,9 @@
             </ul>
         </nav>
 
+        <iframe src="http://localhost:3000/exceptions/<%== @exception.class.to_s %>/messages/<%== @exception.message %>">
+        </iframe>
+
         <% backtrace_frames.each_with_index do |frame, index| %>
             <div class="frame_info" id="frame_info_<%= index %>" style="display:none;"></div>
         <% end %>
